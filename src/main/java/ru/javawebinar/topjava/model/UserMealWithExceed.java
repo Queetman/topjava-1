@@ -1,4 +1,4 @@
-package ru.javawebinar.topjava.model;
+package main.java.ru.javawebinar.topjava.model;
 
 import java.time.LocalDateTime;
 
@@ -8,6 +8,22 @@ import java.time.LocalDateTime;
  */
 public class UserMealWithExceed {
     private final LocalDateTime dateTime;
+
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getCalories() {
+        return calories;
+    }
+
+    public boolean isExceed() {
+        return exceed;
+    }
 
     private final String description;
 
